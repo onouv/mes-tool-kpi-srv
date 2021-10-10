@@ -24,3 +24,5 @@ From these inputs. this service computes the follwing KPI and posts them on the 
 1. OEE  Overall Equipment Efficiency
 2. TEEP Total Effective Equipment Performance
 3. TCT  Theoretical Cycle Time (value taken from the minimum of values seen so far)
+
+This service interfaces with the **`mes-bus-srv`** and an **`mes-kpi-db`** database to maintain service-related state.
