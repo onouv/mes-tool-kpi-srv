@@ -1,5 +1,5 @@
 # mes-tool-kpi-srv
-A microservice to consume yield and tool value topics to compute and repost tool key performance indicators.
+A microservice to consume yield and tool value topics to compute and repost tool key performance indicators. A tool here is ment to be a machine or other piece of equipment producting parts.
 
 
 This service consumes the following tool-related and product-related topics:
@@ -28,3 +28,6 @@ From these inputs. this service computes the follwing KPI and posts them on the 
 See [calculation schema](doc/calc.pdf).
 
 This service interfaces with the **`mes-bus-srv`** and an **`mes-kpi-db`** database to maintain service-related state.
+
+## Fit Into Overall Architecture
+![Overall Architecture](doc/mes-deploy.png)
